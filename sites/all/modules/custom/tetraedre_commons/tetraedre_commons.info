@@ -1,0 +1,4 @@
+name = Tetraèdre Commons
+description = Commons tools for Tetraèdre
+core = 7.x
+project = "tetraedre_commons"
