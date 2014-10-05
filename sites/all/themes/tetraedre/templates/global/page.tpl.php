@@ -31,6 +31,16 @@
 
           <?php print render($page['header']); ?>
 
+          <!-- Nav -->
+            <nav id="nav">
+              <ul>
+                <li><a href="<?php print url('<front>'); ?>"><?php print t('Home'); ?></a></li>
+                <li><a href="<?php print url('node/15') ?>"><?php print t('Team'); ?></a></li>
+                <li><a href="<?php print url('projects') ?>"><?php print t('Projects'); ?></a></li>
+              </ul>
+            </nav>
+          <!-- /Nav -->
+
         </header>
 
       </div>

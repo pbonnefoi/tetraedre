@@ -286,7 +286,6 @@
 
 	.image-full
 	{
-		display: block;
 		width: 100%;
 		margin: 0 0 2em 0;
 	}
@@ -1074,7 +1073,6 @@
 
 	.wrapper-style2
 	{
-		background: #fff;
 	}
 
 		.wrapper-style2 .title
@@ -1083,18 +1081,27 @@
 			color: #484d55;
 		}
 
-	.wrapper-style3
+	.wrapper-style3, .wrapper-likestyle3
 	{
 		background: #f3f3f3 url('images/overlay.png');
 	}
 
-		.wrapper-style3 .title
+	.node-type-project .wrapper-style3 {
+		background: #fff;
+	}
+
+		.node-type-project .wrapper-style3 .title {
+			background: #fff;
+			color: #484d55;
+		}
+
+		.wrapper-style3 .title,  .wrapper-likestyle3 .title
 		{
 			background: #f3f3f3 url('images/overlay.png');
 			color: #484d55;
 		}
 
-		.wrapper-style3 .image
+		.wrapper-style3 .image, .wrapper-likestyle3 .image
 		{
 			border: solid 10px #fff;
 		}
@@ -1199,6 +1206,7 @@
 
 
 .feature-list .row img {
+	height: 100%;
 	float: left;
 	margin-right: 20px;
 }
@@ -1276,10 +1284,6 @@
 	margin-bottom: 0;
 }
 
-.profile-lists {
-	text-align: left;
-}
-
 ul.default-list {
 	list-style: disc;
 	list-style-position: inside;
@@ -1290,8 +1294,9 @@ ul.default-list li {
 	padding-left: 14px;
 }
 
-.profile-lists {
+.profile-lists, .project-description {
 	color: #484d55;
+	text-align: left;
 	font-family: 'Ubuntu', sans-serif;
 	font-size: 0.8em;
 }
@@ -1310,3 +1315,65 @@ ul.default-list li {
 .is-triple-one img {
 	width: 100%;
 }
+
+.picto-image {
+	width: 100%;
+	height: 70px;
+	margin-bottom: 20px;
+}
+
+.picto-image img {
+}
+
+.feature-list .row .picto-image img {
+  float: none;
+  margin-right: 0;
+}
+
+.projects {
+	margin-bottom: 8em;
+}
+
+.taxo {
+	font-family: 'Ubuntu', sans-serif;
+	text-transform: uppercase;
+	font-size: 1.2em;
+	padding-bottom: 20px;
+}
+
+.taxo a {
+	text-decoration: none;
+}
+
+.project-head {
+	padding-bottom: 2em;
+	border-bottom: solid 1px #919499 !important;
+	margin-bottom: 2em;
+}
+
+.images-wrapper {
+	text-align: center;
+}
+
+.project-pictures {
+	display: block;
+	margin: auto;
+	max-width: 960px;
+}
+
+.project-pictures .large .image {
+	display: inline-block;
+	float: none;
+}
+
+.project-pictures .narrow .image {
+	max-width: 480px;
+	float: left;
+	display: block;
+}
+
+.project-pictures .image img {
+	height: 100%;
+	max-width: 100%;
+}
+

@@ -10,7 +10,7 @@
 <div class="6u node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
   <section>
     <div class="header-profile">
-      <?php print render($content['field_photo_profil']); ?>
+      <div class="image image-full"><?php print render($content['field_photo_profil']); ?></div>
       <h3><?php print $node->title; ?></h3>
       <h4><?php print render($content['field_poste']); ?></h4>
     </div>
