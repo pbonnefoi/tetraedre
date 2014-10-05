@@ -1300,9 +1300,13 @@ ul.default-list li {
 	font-size: 1.2em;
 	color: #b30155 !important;
 	font-family: 'Poiret One', cursive;
+	margin-top: 2em;
 }
 
 .picto-teaser {
 	text-align: center;
 }
 
+.is-triple-one img {
+	width: 100%;
+}
