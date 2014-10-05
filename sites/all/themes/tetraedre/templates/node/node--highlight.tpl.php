@@ -15,9 +15,8 @@
       <article id="intro" class="node-<?php print $node->nid; ?> <?php print $classes; ?> clearfix"<?php print $attributes; ?>>
 
           <p class="style2">
-            <?php print render($content['field_body']); ?>
+            <?php print html_entity_decode(render($content['field_body'])); ?>
           </p>
-          <p class="style1"><?php print render($content['field_quote_author']); ?></p>
 
       </article>
 

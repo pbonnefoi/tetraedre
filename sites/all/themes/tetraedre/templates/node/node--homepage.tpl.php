@@ -6,6 +6,7 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728164
  */
+global $base_root;
 ?>
           <!-- Features -->
           <section id="features">
@@ -20,10 +21,10 @@
                     <?php foreach ($faces as $key => $face): ?>
                       <div class="3u">
                         <section class="is is-triple-one">
-                          <h3><?php print t('Face') . ' ' . ($key + 1); ?></h3>
                           <header>
                             <h2><?php print render($face) ?></h2>
                           </header>
+                          <img src="<?php print $base_root . '/' . drupal_get_path('theme', 'tetraedre'); ?>/images/face<?php print ($key + 1); ?>PNG24.png">
                         </section>
                       </div>
                     <?php endforeach ?>
@@ -31,8 +32,9 @@
                 </div>
               </div>
             </div>
-            <div class="team-presentation">
-              <p><?php print html_entity_decode(render($content['field_team_presentation'])); ?></p>
+            <div class="full-quote">
+              <p class="quote"><?php print html_entity_decode(render($content['field_team_presentation'])); ?></p>
+              <p class="style1"><?php print render($content['field_quote_author']); ?></p>
             </div>
           </section>
         </div>

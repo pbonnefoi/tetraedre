@@ -142,7 +142,7 @@
                           <h3 class="fa fa-envelope"><?php print t('E-mail'); ?></h3>
                           <p>
                             <strong>Noémie Grégoire</strong> : <br /><a href="mailto:ngregoire@atelier-tetraedre.com" class="email">ngregoire@atelier-tetraedre.com</a><br />
-                            <strong>Claire Holvoet-Verlaut</strong> : <br /><a href="mailto:cholvoet@atelier-tetraedre" class="email">cholvoet@atelier-tetraedre</a>
+                            <strong>Claire Holvoet-Vermaut</strong> : <br /><a href="mailto:cholvoet@atelier-tetraedre.com" class="email">cholvoet@atelier-tetraedre.com</a>
                           </p>
                         </section>
                       </div>
@@ -151,7 +151,7 @@
                           <h3 class="fa fa-phone"><?php print t('Phone'); ?></h3>
                           <p>
                             <strong>Noémie Grégoire</strong> : <br /><span class="phone"><?php print variable_get('tetraedre_phone_1', '+33 6 32 11 02 10'); ?><br /></span>
-                            <strong>Claire Holvoet-Verlaut</strong> : <br /><span class="phone"><?php print '+33 6 21 13 15 77'; ?></span>
+                            <strong>Claire Holvoet-Vermaut</strong> : <br /><span class="phone"><?php print '+33 6 21 13 15 77'; ?></span>
                           </p>
                         </section>
                       </div>

@@ -1233,21 +1233,76 @@
 	font-family: 'Ubuntu', sans-serif;
 }
 
-.team-presentation {
+.full-quote {
 	text-align: center;
-	padding: 1.5em 4em 1.5em 4em;
+	padding: 1.5em 3em 1.5em 3em;
 	font-size: 0.8em;
 	display: inline-block;
 	border-radius: 0.35em;
 	box-shadow: inset 0px 0px 1px 1px rgba(68,68,68,0.15);
 	color: #aaa;
 	color: rgba(255,255,255,0.25);
+	line-height: 2em;
 }
 
-.team-presentation p {
+.node-type-team-presentation .full-quote {
+	margin-bottom: 4em;
+}
+
+.full-quote strong {
+	color: #919499;
+}
+
+.full-quote .style1 {
 	margin-bottom: 0;
 }
 
-.team-presentation strong {
-	color: #919499;
+.quote {
+	font-style: italic;
+	font-size: 1.25em;
+	margin-bottom: 10px;
 }
+
+.header-profile {
+	padding-bottom: 2em;
+	border-bottom: solid 1px #919499 !important;
+	margin-bottom: 2em;
+}
+
+.feature-list .header-profile h3 {
+	text-transform: uppercase;
+	font-size: 1.3em !important;
+	line-height: 1.5em !important;
+	margin-bottom: 0;
+}
+
+.profile-lists {
+	text-align: left;
+}
+
+ul.default-list {
+	list-style: disc;
+	list-style-position: inside;
+	margin: 0 !important;
+}
+
+ul.default-list li {
+	padding-left: 14px;
+}
+
+.profile-lists {
+	color: #484d55;
+	font-family: 'Ubuntu', sans-serif;
+	font-size: 0.8em;
+}
+
+.profile-lists h4 {
+	font-size: 1.2em;
+	color: #b30155 !important;
+	font-family: 'Poiret One', cursive;
+}
+
+.picto-teaser {
+	text-align: center;
+}
+

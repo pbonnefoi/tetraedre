@@ -38,7 +38,7 @@
 
 		header.style1 h2
 		{
-			font-size: 2em;
+			font-size: 1.5em;
 			letter-spacing: 0.075em;
 			line-height: 1.5em;
 		}
@@ -197,6 +197,7 @@
 			margin: 0 0 0.75em 0;
 			font-size: 1.15em;
 			letter-spacing: 0.05em;
+			color: #b30155 !important;
 		}
 
 		.is h3
@@ -261,7 +262,7 @@
 
 		.wrapper .title
 		{
-			font-size: 1.2em;
+			font-size: 1.3em;
 			width: 39em;
 			height: 3.25em;
 			top: -3.25em;
@@ -463,7 +464,7 @@
 
 		#intro .style2
 		{
-			font-size: 1.5em;
+			font-size: 1.25em;
 			letter-spacing: 0.075em;
 			line-height: 1.35em;
 			padding: 1em 0 1em 0;
@@ -614,3 +615,11 @@
 			line-height: 1em;
 			font-size: 0.8em;
 		}
+
+.node-type-team-presentation #features {
+	padding: 0 3em 0 3em;
+}
+
+.node-type-team-presentation .node-team-member {
+	padding-left: 4em !important;
+}
