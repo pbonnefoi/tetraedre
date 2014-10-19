@@ -343,7 +343,7 @@
 
 			.button-style1:hover
 			{
-				background-color: #f98780;
+				background-color: #444;
 			}
 
 			.button-style1:active
@@ -1251,6 +1251,7 @@
 	color: #aaa;
 	color: rgba(255,255,255,0.25);
 	line-height: 2em;
+	margin-top: 1.5em;
 }
 
 .node-type-team-presentation .full-quote {

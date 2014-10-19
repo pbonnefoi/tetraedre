@@ -360,10 +360,10 @@
 
 		#intro .style2
 		{
-			font-size: 1.5em;
+			font-size: 1em;
 			letter-spacing: 0.05em;
 			line-height: 1.25em;
-			padding: 1.25em;
+			padding: 1em;
 		}
 
 /*********************************************************************************/
@@ -430,3 +430,9 @@
 	width: 100%;
 }
 
+.project-pictures .image img {
+	height: 100%;
+	max-width: 100%;
+	position: static;
+	width: 100%
+}
